@@ -183,4 +183,4 @@ app.get('/', (req, res) => {
     res.send('Hello creative agency')
 })
 
-app.listen(process.env.PORT || port, () => { console.log('App listening on port', port); })
+app.listen(process.env.PORT || port)
